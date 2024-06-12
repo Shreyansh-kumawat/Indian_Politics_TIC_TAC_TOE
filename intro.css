@@ -1,0 +1,96 @@
+*{
+    margin: 0
+}
+
+body{
+    text-align: center;
+    background-color: #d8bcb5;
+   
+   
+}
+
+.head1{
+    color: rgb(51, 57, 127);
+ font-weight: 700;
+ font-size: 3.5rem;
+ margin:10px
+
+}
+.head2{
+    font-weight: 700;
+    font-size: 6rem;
+color:rgb(121, 142, 2);
+}
+
+
+
+
+#img1new{
+border-radius: 10%;
+background-image: url("images/smileModi.jpg");
+}
+
+#img2new{
+    border-radius: 10%;
+    background-image: url("images/smilerahul.jpg");
+
+}    
+
+
+.modi_1{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/image1.jpg");
+    background-size: cover ;
+    background-position: center;
+    margin-right: 10px;
+    
+
+}
+
+.rahul_1{
+    height: 250px;
+    width: 250px;
+    position:absolute;
+    background-image: url("images/image2.jpg");
+    background-size: cover ;
+    background-position: center;
+   
+
+}
+
+.p2_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p2_img{
+    height: 90px;
+    width: 90px;
+    background-image: url("images/the_paper.jpg");
+    background-size: cover ;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-right: 290px;
+    margin-top: 20px; 
+  
+}
+
+
+
+.foot{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(19, 19, 53);
+    color: azure;
+}
+
+#shreyansh{
+    color:chartreuse;
+    font-size: larger;
+}

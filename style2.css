@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #79aedc5e;
+    text-align: center;
+    background-image: url("images/backg_game.jpeg");
+    background-size: cover;
+}
+
+.contain{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+
+    height: 60vmin ;
+    width: 60vmin ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2.5vmin;
+} 
+
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 0.7rem;
+    border:none;
+    box-shadow: 2px 3px 5px black;
+  background-image: url("images/paper.jpg");
+  background-size: cover;
+
+}
+
+.reset{
+    font-size: large;
+    height: 3rem;
+    width:8rem;
+    background-image: url("images/button\ backg.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    color:rgb(174, 255, 185);
+    box-shadow: 0px 0px 5px red;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.rare1{
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.new{
+    height:60px;
+    width: 100px;
+    border:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 9%;
+    color: rgb(14, 14, 31);
+    font-size: x-large;
+    background-image: url("images/newgame.png");
+    background-size: cover;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.msg{
+    color: rgb(19, 20, 35);
+
+    font-size: 40px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.msg-cont{
+    
+    margin-bottom: 40px;
+   
+}
+
+.hidden{
+ 
+    display: none;
+}
+
+
+.back img {
+    width: 160px;
+    height: 100px;
+    border: none;
+    border-radius: 25%;
+    margin-bottom: 4rem;
+}
+
+h1, .rare{
+    color: rgb(178, 213, 255);
+}
